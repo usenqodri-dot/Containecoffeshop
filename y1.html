@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Containè - Mind in Motion</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- INTRO -->
+<div id="intro">
+<div class="intro-content">
+<img src="containe.png" alt="Containè">
+<div class="loader-line"></div>
+</div>
+</div>
+
+
+<!-- HEADER -->
+<header>
+
+<div class="brand">
+<img src="containe.png">
+<span>Containè</span>
+</div>
+
+<nav>
+<a href="#projects">Projects</a>
+<a href="#menu">Menu</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<!-- HERO -->
+<section class="hero">
+
+<video autoplay muted loop playsinline class="bg-video">
+<source src="https://cdn.coverr.co/videos/coverr-coffee-being-poured-into-a-cup-1560/1080p.mp4" type="video/mp4">
+</video>
+
+<div class="hero-content">
+
+<img src="containe.png" class="hero-logo">
+
+<h1>Containè</h1>
+
+<p>Mind in Motion</p>
+
+<a href="#menu" class="btn" id="exploreBtn">Explore Menu</a>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+
+<h2>Projects</h2>
+
+<div class="products">
+
+<div class="product project-trigger" data-project="coffee">
+
+<img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80">
+
+<h3>Coffee Concept</h3>
+
+</div>
+
+<div class="product project-trigger" data-project="brand">
+
+<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80">
+
+<h3>Brand Identity</h3>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- MENU -->
+<section id="menu" class="menu">
+
+<h2>Our Menu</h2>
+
+<div class="menu-grid">
+
+<div class="menu-item category-card" data-category="coffee">
+<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80">
+<h3>Coffee Series</h3>
+</div>
+
+<div class="menu-item category-card" data-category="noncoffee">
+<img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&q=80">
+<h3>Non Coffee Series</h3>
+</div>
+
+<div class="menu-item category-card" data-category="tea">
+<img src="https://images.unsplash.com/photo-1497534446932-c925b458314e?w=800&q=80">
+<h3>Tea Series</h3>
+</div>
+
+<div class="menu-item category-card" data-category="snack">
+<img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80">
+<h3>Snack Series</h3>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer id="contact">
+
+<p>© 2026 Containè — Mind in Motion</p>
+
+</footer>
+
+
+<!-- WA BUTTON -->
+<div class="wa-float" id="openWA">Contact</div>
+
+
+<!-- UNIVERSAL MODAL -->
+<div class="overlay" id="overlay"></div>
+
+<div class="modal" id="modal">
+
+<span class="close" id="closeModal">&times;</span>
+
+<div id="modalContent"></div>
+
+</div>
+
+
+<!-- PROJECT MODAL -->
+<div class="project-modal" id="projectModal">
+
+<div class="project-box" id="projectContent">
+
+<span class="project-close" id="closeProjectBtn">✕</span>
+
+<div id="projectText"></div>
+
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
